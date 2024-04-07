@@ -1,0 +1,9 @@
+## lecture 01 - assembly hello world
+
+- what is a syscall?
+- what is elf?
+
+how to turn assembly code into an executable:
+
+- `nasm -f elf hello-world.asm -o hello-world.o`
+- `ld -m elf_i386 hello-world.o -o hello-world`
