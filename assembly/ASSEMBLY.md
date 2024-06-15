@@ -10,3 +10,18 @@
 
 ## Useful GDB commands:
 
+- `quit`
+- `file your-file-name` ; loads a file into the debugger
+- `tab` ; for a command list
+- `help cmd`
+- `run`
+- `break x`
+- `break *address`
+- `stepi` or `si` 
+- `layout asm`
+- `layout regs`
+
+
+#### .gdbinit file can be useful
+- add `set auto-load safe-path /`
+- add `set disassembly-flavor intel` to the ~/.gdbinit file
